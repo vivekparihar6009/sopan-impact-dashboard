@@ -1,0 +1,11 @@
+Center ID,Center Name,District,Field Worker,Students,Total Monthly Spend (INR),Total Jumps,Transitioned Students,WLTR (%),Avg Cost/Student (INR),Cost/Transition (INR),Jumps/Student
+CTR-007,"Maner Center A",Patna,"Kiran Devi",56,43951,64,37,66,785,687,1.1
+CTR-010,"Fatuha Center A",Patna,"Sneha Singh",43,34387,48,25,58,800,716,1.1
+CTR-004,"Wazirganj Center A",Gaya,"Anita Devi",46,35970,44,27,59,782,818,1
+CTR-008,"Phulwari Center A",Patna,"Mohammad Ali",51,40632,49,26,51,797,829,1
+CTR-002,"Dobhi Center A",Gaya,"Ramesh Paswan",68,54446,63,33,49,801,864,0.9
+CTR-009,"Bakhtiyarpur Center A",Patna,"Rahul Prasad",61,49288,56,34,56,808,880,0.9
+CTR-001,"Bodh Gaya Center A",Gaya,"Pooja Kumari",55,43431,49,30,55,790,886,0.9
+CTR-003,"Sherghati Center A",Gaya,"Sanjay Kumar",55,45048,50,30,55,819,901,0.9
+CTR-006,"Danapur Center A",Patna,"Amit Sharma",48,38909,40,25,52,811,973,0.8
+CTR-005,"Mohanpur Center A",Gaya,"Sunil Yadav",48,37634,37,19,40,784,1017,0.8
