@@ -1,0 +1,170 @@
+[
+  {
+    "fieldName": "beneficiary_id",
+    "dataType": "String",
+    "allowedValues": "Format: SOP-GAY-XXXX or SOP-PAT-XXXX",
+    "owner": "Registration Officer",
+    "updateFrequency": "Once at enrollment",
+    "nullPolicy": "Mandatory. If null, reject row. Used for tracking individual student progress."
+  },
+  {
+    "fieldName": "name",
+    "dataType": "String",
+    "allowedValues": "Full Name",
+    "owner": "Registration Officer",
+    "updateFrequency": "Once at enrollment",
+    "nullPolicy": "Mandatory. If null, replace with 'Anonymous Student' and display warning."
+  },
+  {
+    "fieldName": "age",
+    "dataType": "Integer",
+    "allowedValues": "6 to 14",
+    "owner": "Registration Officer",
+    "updateFrequency": "Once at enrollment",
+    "nullPolicy": "Mandatory. If null or out of range, set warning flag. Crucial for verifying cohort age compliance."
+  },
+  {
+    "fieldName": "gender",
+    "dataType": "Category",
+    "allowedValues": "Male, Female, Other",
+    "owner": "Registration Officer",
+    "updateFrequency": "Once at enrollment",
+    "nullPolicy": "Mandatory. If null, flag as 'Unspecified' and trigger gap analysis check."
+  },
+  {
+    "fieldName": "caste_category",
+    "dataType": "Category",
+    "allowedValues": "SC, ST, OBC, General",
+    "owner": "Registration Officer",
+    "updateFrequency": "Once at enrollment",
+    "nullPolicy": "High Warning. If null, flag as 'Unspecified' and include in data health summary."
+  },
+  {
+    "fieldName": "district",
+    "dataType": "Category",
+    "allowedValues": "Gaya, Patna",
+    "owner": "Registration Officer",
+    "updateFrequency": "Once at enrollment",
+    "nullPolicy": "Mandatory. Exclude from geographical reach charts if null."
+  },
+  {
+    "fieldName": "village",
+    "dataType": "String",
+    "allowedValues": "Valid village in Bihar",
+    "owner": "Registration Officer",
+    "updateFrequency": "Once at enrollment",
+    "nullPolicy": "Mandatory. Default to center village name if null."
+  },
+  {
+    "fieldName": "enrollment_date",
+    "dataType": "Date",
+    "allowedValues": "YYYY-MM-DD",
+    "owner": "Registration Officer",
+    "updateFrequency": "Once at enrollment",
+    "nullPolicy": "Mandatory. Fallback to center opening date if null."
+  },
+  {
+    "fieldName": "center_id",
+    "dataType": "String",
+    "allowedValues": "Format: CTR-XXX",
+    "owner": "Program Manager",
+    "updateFrequency": "Once at setup",
+    "nullPolicy": "Mandatory. Default to 'Unassigned Center' if null."
+  },
+  {
+    "fieldName": "center_name",
+    "dataType": "String",
+    "allowedValues": "Name of remediation center",
+    "owner": "Program Manager",
+    "updateFrequency": "Once at setup",
+    "nullPolicy": "Mandatory. Default to 'Unassigned' if null."
+  },
+  {
+    "fieldName": "field_worker_id",
+    "dataType": "String",
+    "allowedValues": "Format: FW-XXX",
+    "owner": "Program Manager",
+    "updateFrequency": "Once at onboarding",
+    "nullPolicy": "Mandatory. Default to 'Unassigned FW' if null."
+  },
+  {
+    "fieldName": "field_worker_name",
+    "dataType": "String",
+    "allowedValues": "Full Name",
+    "owner": "Program Manager",
+    "updateFrequency": "Once at onboarding",
+    "nullPolicy": "Mandatory. Default to 'Unassigned Name' if null."
+  },
+  {
+    "fieldName": "monthly_cost_inr",
+    "dataType": "Integer",
+    "allowedValues": "600 to 1000",
+    "owner": "Finance Officer",
+    "updateFrequency": "Monthly review",
+    "nullPolicy": "High Warning. If null, substitute center average and flag in cost audit."
+  },
+  {
+    "fieldName": "attendance_rate",
+    "dataType": "Float",
+    "allowedValues": "0.00 to 1.00",
+    "owner": "Field Worker (Shiksha Mitra)",
+    "updateFrequency": "Weekly calculation",
+    "nullPolicy": "Mandatory. If null, default to 0.00 and exclude from progress projections."
+  },
+  {
+    "fieldName": "baseline_reading_level",
+    "dataType": "Integer",
+    "allowedValues": "0 (Beginner), 1 (Letter), 2 (Word), 3 (Paragraph), 4 (Story)",
+    "owner": "Field Worker (Shiksha Mitra)",
+    "updateFrequency": "Baseline assessment",
+    "nullPolicy": "Mandatory. If null, exclude child from transition rate calculation."
+  },
+  {
+    "fieldName": "baseline_math_level",
+    "dataType": "Integer",
+    "allowedValues": "0 (Beginner), 1 (Number 1-9), 2 (Number 10-99), 3 (Subtraction), 4 (Division)",
+    "owner": "Field Worker (Shiksha Mitra)",
+    "updateFrequency": "Baseline assessment",
+    "nullPolicy": "Mandatory. If null, exclude child from transition rate calculation."
+  },
+  {
+    "fieldName": "latest_reading_level",
+    "dataType": "Integer",
+    "allowedValues": "0 to 4",
+    "owner": "Field Worker (Shiksha Mitra)",
+    "updateFrequency": "Weekly assessment",
+    "nullPolicy": "Mandatory. If null, carry forward previous week's reading level."
+  },
+  {
+    "fieldName": "latest_math_level",
+    "dataType": "Integer",
+    "allowedValues": "0 to 4",
+    "owner": "Field Worker (Shiksha Mitra)",
+    "updateFrequency": "Weekly assessment",
+    "nullPolicy": "Mandatory. If null, carry forward previous week's math level."
+  },
+  {
+    "fieldName": "assessment_date",
+    "dataType": "Date",
+    "allowedValues": "YYYY-MM-DD",
+    "owner": "Field Worker (Shiksha Mitra)",
+    "updateFrequency": "Weekly",
+    "nullPolicy": "Mandatory. Must be <= today. If null, set to date of creation."
+  },
+  {
+    "fieldName": "submission_timestamp",
+    "dataType": "DateTime",
+    "allowedValues": "ISO 8601 UTC timestamp",
+    "owner": "Automated System",
+    "updateFrequency": "Instant of submission",
+    "nullPolicy": "Automated. Enforced by system client. Used to calculate lag."
+  },
+  {
+    "fieldName": "is_duplicate",
+    "dataType": "Boolean",
+    "allowedValues": "true, false",
+    "owner": "Automated System / Data Audit",
+    "updateFrequency": "Weekly calculation",
+    "nullPolicy": "Mandatory. Default to false. Flag true if same name, age, village, and center occur."
+  }
+]

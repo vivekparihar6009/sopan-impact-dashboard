@@ -1,0 +1,546 @@
+beneficiary_id,name,age,gender,caste_category,district,village,enrollment_date,center_id,center_name,field_worker_id,field_worker_name,monthly_cost_inr,attendance_rate,baseline_reading_level,baseline_math_level,latest_reading_level,latest_math_level,assessment_date,submission_timestamp,is_duplicate
+SOP-PAT-001,Vikram Singh,6,Female,General,Patna,Phulwari Sharif,2026-03-19,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,789,0.75,0,0,0,0,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-002,Rahul Manjhi,11,Male,General,Patna,Bakhtiyarpur,2026-04-19,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,822,0.82,0,0,0,0,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-003,Aditya Paswan,8,Male,SC,Gaya,Sherghati,2026-02-07,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,949,0.75,0,0,0,0,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-PAT-004,Amit Choudhary,13,Male,General,Patna,Bakhtiyarpur,2026-04-02,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,671,0.96,1,1,3,1,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-005,Rajesh Paswan,12,Male,General,Gaya,Dobhi,2026-03-22,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,829,0.71,1,0,1,0,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-006,Sneha Kumar,10,Male,SC,Gaya,Dobhi,2026-01-17,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,652,0.76,1,2,2,3,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-007,Nisha Tiwari,8,Male,General,Gaya,Mohanpur,2026-02-05,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,758,0.84,2,0,2,0,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-008,Riya Gupta,8,Male,SC,Patna,Phulwari Sharif,2026-01-27,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,661,0.72,1,0,1,0,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-009,Jyoti Paswan,8,Male,OBC,Gaya,Sherghati,2026-05-12,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,797,0.96,2,1,3,2,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-PAT-010,Jyoti Manjhi,7,Male,SC,Patna,Phulwari Sharif,2026-04-08,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,905,0.68,0,2,0,2,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-011,Diya Gupta,8,Female,SC,Gaya,Bodh Gaya,2026-05-09,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,638,0.72,0,0,0,0,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-PAT-012,Manish Tiwari,11,Female,OBC,Patna,Danapur,2026-04-07,CTR-006,Danapur Center A,FW-006,Amit Sharma,997,0.71,1,1,1,1,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-013,Kiran Ansari,10,Male,SC,Patna,Danapur,2026-03-03,CTR-006,Danapur Center A,FW-006,Amit Sharma,692,0.71,1,1,1,1,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-014,Priya Paswan,12,Female,ST,Patna,Fatuha,2026-03-19,CTR-010,Fatuha Center A,FW-010,Sneha Singh,846,0.87,2,2,2,4,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-015,Fatima Kumari,7,Female,General,Gaya,Bodh Gaya,2026-01-22,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,771,0.79,1,2,2,3,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-016,Ananya Gupta,12,Male,OBC,Gaya,Dobhi,2026-03-05,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,600,0.7,2,0,2,0,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-017,Divya Rajak,10,Male,OBC,Patna,Phulwari Sharif,2026-01-30,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,836,0.81,2,2,3,3,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-018,Priya Mishra,12,Female,ST,Gaya,Mohanpur,2026-03-30,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,811,0.99,0,0,1,2,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-019,Vivaan Rajak,6,Female,General,Gaya,Wazirganj,2026-03-27,CTR-004,Wazirganj Center A,FW-004,Anita Devi,700,0.69,1,0,1,0,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-GAY-020,Riya Paswan,9,Male,SC,Gaya,Bodh Gaya,2026-01-18,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,915,0.82,2,0,2,1,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-021,Aarav Ansari,6,Female,SC,Gaya,Mohanpur,2026-02-26,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,855,0.71,1,2,1,2,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-022,Aditya Tiwari,7,Female,SC,Gaya,Sherghati,2026-04-24,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,946,0.68,2,1,2,1,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-023,Jyoti Kumari,13,Female,OBC,Gaya,Bodh Gaya,2026-02-21,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,971,0.94,1,1,2,3,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-024,Aditya Singh,6,Female,General,Gaya,Mohanpur,2026-05-01,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,930,0.99,0,0,1,1,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-025,Amit Prasad,12,Female,OBC,Gaya,Mohanpur,2026-02-09,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,610,0.74,0,1,0,1,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-026,Nisha Ansari,8,Male,OBC,Patna,Bakhtiyarpur,2026-02-04,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,742,0.97,0,1,2,1,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-027,Mohammad Das,10,Female,General,Patna,Maner,2026-03-22,CTR-007,Maner Center A,FW-007,Kiran Devi,712,0.9,0,0,1,2,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-028,Fatima Paswan,7,Female,SC,Gaya,Bodh Gaya,2026-05-06,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,758,0.77,1,2,1,2,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-029,Fatima Verma,12,Male,OBC,Gaya,Bodh Gaya,2026-02-12,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,871,0.92,0,1,1,2,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-PAT-030,Divya Mishra,13,Female,SC,Patna,Bakhtiyarpur,2026-01-29,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,677,0.83,2,1,3,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-031,Rohan Yadav,9,Male,OBC,Patna,Phulwari Sharif,2026-02-27,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,821,0.89,1,0,2,1,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-GAY-032,Abhishek Kumar,8,Female,General,Gaya,Mohanpur,2026-05-07,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,739,0.92,2,2,4,3,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-GAY-033,Priya Sinha,9,Female,OBC,Gaya,Mohanpur,2026-03-12,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,993,0.82,0,0,0,0,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-034,Diya Tiwari,11,Male,OBC,Gaya,Dobhi,2026-05-02,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,652,0.87,2,1,4,2,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-PAT-035,Sunita Kumari,12,Female,OBC,Patna,Phulwari Sharif,2026-03-15,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,852,0.99,0,1,0,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-PAT-036,Nisha Devi,7,Male,General,Patna,Bakhtiyarpur,2026-03-14,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,738,0.86,2,1,3,1,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-037,Karan Paswan,7,Male,SC,Patna,Phulwari Sharif,2026-02-01,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,683,0.93,1,1,3,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-038,Divya Devi,6,Female,OBC,Patna,Phulwari Sharif,2026-02-28,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,847,0.71,1,1,1,1,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-039,Rajesh Sharma,13,Male,OBC,Gaya,Mohanpur,2026-03-29,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,826,0.74,0,0,0,0,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-040,Aditya Paswan,14,Female,General,Gaya,Bodh Gaya,2026-04-17,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,608,0.77,1,0,1,1,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-041,Priya Mishra,7,Female,OBC,Gaya,Dobhi,2026-02-21,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,942,0.68,0,1,0,1,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-042,Rahul Paswan,14,Male,OBC,Patna,Maner,2026-01-28,CTR-007,Maner Center A,FW-007,Kiran Devi,694,0.96,2,1,4,1,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-043,Aisha Rajak,7,Male,OBC,Patna,Bakhtiyarpur,2026-03-19,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,865,0.73,0,2,0,2,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-044,Amit Sharma,11,Male,OBC,Gaya,Sherghati,2026-02-09,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,846,0.9,1,0,2,0,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-045,Jyoti Mishra,8,Female,OBC,Gaya,Sherghati,2026-04-24,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,768,0.83,1,2,2,2,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-046,Jyoti Manjhi,6,Male,OBC,Gaya,Sherghati,2026-02-08,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,670,0.76,2,0,2,1,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-GAY-047,Ananya Verma,7,Male,OBC,Gaya,Wazirganj,2026-02-27,CTR-004,Wazirganj Center A,FW-004,Anita Devi,653,0.94,0,1,0,2,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-048,Aarav Yadav,13,Male,OBC,Patna,Danapur,2026-04-24,CTR-006,Danapur Center A,FW-006,Amit Sharma,798,0.82,2,2,2,2,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-GAY-049,Riya Das,11,Male,SC,Gaya,Sherghati,2026-04-03,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,618,0.93,1,2,2,4,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-050,Mohammad Singh,14,Female,SC,Gaya,Bodh Gaya,2026-02-09,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,807,0.95,2,2,2,3,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-GAY-051,Kiran Choudhary,9,Female,,Gaya,Dobhi,2026-04-04,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,912,0.66,0,0,0,0,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-052,Kajal Mishra,7,,SC,Gaya,Bodh Gaya,2026-03-16,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,776,0.9,2,2,3,2,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-GAY-053,Rajesh Kumari,6,Female,,Gaya,Dobhi,2026-03-06,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,832,0.91,0,2,0,3,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-PAT-054,Karan Mishra,7,,SC,Patna,Maner,2026-01-14,CTR-007,Maner Center A,FW-007,Kiran Devi,865,0.81,1,1,1,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-055,Pooja Manjhi,6,Female,,Gaya,Wazirganj,2026-04-22,CTR-004,Wazirganj Center A,FW-004,Anita Devi,605,0.81,0,0,0,1,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-056,Pooja Verma,11,,OBC,Gaya,Sherghati,2026-02-17,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,613,0.76,1,0,1,1,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-PAT-057,Sneha Verma,8,Male,,Patna,Maner,2026-03-01,CTR-007,Maner Center A,FW-007,Kiran Devi,886,0.87,1,0,2,1,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-058,Diya Prasad,10,,OBC,Patna,Maner,2026-04-17,CTR-007,Maner Center A,FW-007,Kiran Devi,973,0.7,1,0,1,0,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-GAY-059,Vihaan Paswan,7,Male,,Gaya,Wazirganj,2026-04-28,CTR-004,Wazirganj Center A,FW-004,Anita Devi,722,0.88,2,1,4,2,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-060,Nisha Rajak,14,,OBC,Gaya,Dobhi,2026-03-19,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,825,0.97,2,2,3,3,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-061,Neha Paswan,6,Female,OBC,Gaya,Dobhi,2026-03-11,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,767,0.72,1,1,1,1,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-062,Pooja Sharma,9,Female,General,Gaya,Dobhi,2026-02-02,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,733,0.74,0,0,0,0,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-063,Abhishek Tiwari,11,Female,OBC,Gaya,Bodh Gaya,2026-02-27,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,933,0.95,2,1,3,2,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-064,Sneha Singh,11,Female,OBC,Gaya,Dobhi,2026-02-22,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,893,0.97,2,2,3,4,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-PAT-065,Aditya Sharma,14,Female,General,Patna,Danapur,2026-02-02,CTR-006,Danapur Center A,FW-006,Amit Sharma,711,0.68,1,0,1,0,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-066,Rajesh Das,11,Male,OBC,Gaya,Bodh Gaya,2026-03-08,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,603,0.99,2,0,3,1,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-067,Divya Choudhary,12,Other,OBC,Gaya,Mohanpur,2026-03-08,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,855,0.99,2,2,3,2,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-GAY-068,Rajesh Sharma,7,Male,OBC,Gaya,Wazirganj,2026-02-27,CTR-004,Wazirganj Center A,FW-004,Anita Devi,932,0.66,1,2,1,2,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-GAY-069,Kiran Paswan,14,Male,OBC,Gaya,Mohanpur,2026-02-05,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,788,0.74,0,1,0,1,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-GAY-070,Kajal Yadav,7,Female,General,Gaya,Bodh Gaya,2026-01-28,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,831,0.91,1,1,3,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-071,Aditya Ansari,7,Female,OBC,Patna,Bakhtiyarpur,2026-01-19,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,808,0.78,2,1,3,1,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-072,Kiran Rajak,14,Female,General,Gaya,Dobhi,2026-02-16,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,858,0.69,2,1,2,1,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-PAT-073,Aarav Paswan,10,Male,OBC,Patna,Phulwari Sharif,2026-03-06,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,612,0.87,2,2,2,3,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-PAT-074,Jyoti Kumari,8,Male,General,Patna,Maner,2026-01-20,CTR-007,Maner Center A,FW-007,Kiran Devi,705,0.72,1,1,1,1,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-075,Riya Das,14,Male,OBC,Gaya,Sherghati,2026-02-27,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,756,0.96,1,0,3,0,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-PAT-076,Aditya Khan,7,Male,OBC,Patna,Phulwari Sharif,2026-04-15,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,710,0.7,0,2,0,2,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-077,Kajal Devi,11,Female,OBC,Gaya,Sherghati,2026-04-29,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,851,0.74,2,0,2,0,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-PAT-078,Aisha Singh,13,Female,OBC,Patna,Bakhtiyarpur,2026-05-07,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,995,0.85,2,2,2,2,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-PAT-079,Priya Rajak,11,Female,OBC,Patna,Fatuha,2026-02-24,CTR-010,Fatuha Center A,FW-010,Sneha Singh,776,0.87,0,2,1,3,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-080,Mohammad Choudhary,10,Male,ST,Patna,Maner,2026-03-01,CTR-007,Maner Center A,FW-007,Kiran Devi,686,0.79,0,1,0,2,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-081,Diya Ansari,6,Male,OBC,Gaya,Dobhi,2026-04-19,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,975,0.87,1,2,2,2,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-082,Arjun Sinha,13,Male,SC,Patna,Phulwari Sharif,2026-04-30,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,685,0.66,0,2,0,2,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-083,Pooja Paswan,8,Female,OBC,Gaya,Bodh Gaya,2026-05-03,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,668,0.89,2,2,3,2,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-GAY-084,Mohammad Paswan,14,Male,General,Gaya,Sherghati,2026-01-29,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,648,0.88,1,0,1,0,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-PAT-085,Priya Khan,14,Male,General,Patna,Maner,2026-05-03,CTR-007,Maner Center A,FW-007,Kiran Devi,942,0.85,0,2,1,3,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-086,Sneha Paswan,14,Male,OBC,Patna,Danapur,2026-03-04,CTR-006,Danapur Center A,FW-006,Amit Sharma,956,0.86,1,1,1,1,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-GAY-087,Rohan Prasad,7,Female,OBC,Gaya,Bodh Gaya,2026-05-05,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,747,0.87,1,0,1,1,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-088,Kajal Choudhary,13,Male,OBC,Gaya,Sherghati,2026-03-06,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,722,0.8,2,0,2,0,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-GAY-089,Vivaan Choudhary,12,Male,OBC,Gaya,Sherghati,2026-05-07,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,725,0.86,1,0,2,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-090,Priya Kumari,6,Male,SC,Patna,Phulwari Sharif,2026-04-30,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,715,0.99,2,0,2,1,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-091,Aisha Singh,7,Male,OBC,Gaya,Mohanpur,2026-01-25,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,903,0.75,2,2,2,2,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-092,Vivaan Kumari,10,Male,OBC,Patna,Danapur,2026-04-06,CTR-006,Danapur Center A,FW-006,Amit Sharma,968,0.78,0,2,0,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-PAT-093,Priya Kumari,7,Female,OBC,Patna,Danapur,2026-02-14,CTR-006,Danapur Center A,FW-006,Amit Sharma,948,0.83,1,2,2,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-094,Rajesh Yadav,8,Female,OBC,Gaya,Dobhi,2026-05-04,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,757,0.67,2,0,2,0,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-095,Vikram Sinha,6,Female,General,Gaya,Bodh Gaya,2026-05-06,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,981,0.76,1,0,1,0,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-096,Riya Manjhi,11,Male,General,Gaya,Wazirganj,2026-04-02,CTR-004,Wazirganj Center A,FW-004,Anita Devi,756,0.77,2,1,2,2,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-PAT-097,Neha Paswan,11,Female,OBC,Patna,Fatuha,2026-03-20,CTR-010,Fatuha Center A,FW-010,Sneha Singh,659,0.68,2,0,2,0,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-098,Aisha Kumar,10,Female,OBC,Patna,Danapur,2026-05-03,CTR-006,Danapur Center A,FW-006,Amit Sharma,799,0.74,2,0,2,0,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-099,Abhishek Singh,11,Male,OBC,Gaya,Bodh Gaya,2026-02-28,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,933,0.82,1,2,1,3,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-100,Riya Singh,11,Female,OBC,Patna,Phulwari Sharif,2026-01-16,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,913,0.91,0,0,2,0,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-101,Priya Sinha,11,Female,OBC,Patna,Phulwari Sharif,2026-01-18,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,750,0.71,2,1,2,1,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-GAY-102,Abhishek Ansari,11,Male,OBC,Gaya,Wazirganj,2026-02-03,CTR-004,Wazirganj Center A,FW-004,Anita Devi,694,0.98,0,0,4,4,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-103,Sanjay Kumar,9,Male,General,Patna,Maner,2026-05-10,CTR-007,Maner Center A,FW-007,Kiran Devi,672,0.87,2,0,4,1,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-104,Mohammad Verma,6,Female,OBC,Gaya,Dobhi,2026-01-19,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,964,0.98,0,0,4,4,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-105,Karan Singh,8,Female,ST,Patna,Bakhtiyarpur,2026-03-06,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,677,0.98,0,0,4,4,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-106,Rajesh Mishra,9,Male,SC,Gaya,Bodh Gaya,2026-04-29,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,965,0.98,0,2,4,4,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-107,Fatima Singh,9,Male,OBC,Patna,Fatuha,2026-01-13,CTR-010,Fatuha Center A,FW-010,Sneha Singh,890,0.95,2,0,2,2,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-GAY-108,Nisha Khan,8,Female,OBC,Gaya,Bodh Gaya,2026-01-18,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,861,0.98,0,1,4,4,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-109,Aditya Gupta,8,Female,OBC,Gaya,Wazirganj,2026-02-25,CTR-004,Wazirganj Center A,FW-004,Anita Devi,808,0.98,0,2,4,4,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-110,Aditya Paswan,10,Female,OBC,Gaya,Sherghati,2026-04-26,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,820,0.79,0,1,0,2,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-111,Amit Manjhi,13,Male,OBC,Patna,Fatuha,2026-03-04,CTR-010,Fatuha Center A,FW-010,Sneha Singh,839,0.94,2,1,4,2,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-112,Sanjay Sinha,6,Female,OBC,Patna,Bakhtiyarpur,2026-02-14,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,759,0.89,0,2,1,3,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-113,Aarav Das,12,Male,SC,Gaya,Mohanpur,2026-01-25,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,782,0.74,2,2,2,2,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-114,Aisha Verma,14,Female,SC,Gaya,Bodh Gaya,2026-04-25,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,609,0.79,1,2,1,3,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-115,Abhishek Manjhi,7,Male,General,Patna,Maner,2026-01-28,CTR-007,Maner Center A,FW-007,Kiran Devi,885,0.82,2,2,3,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-PAT-116,Vivaan Singh,11,Male,SC,Patna,Danapur,2026-04-16,CTR-006,Danapur Center A,FW-006,Amit Sharma,998,0.84,0,2,0,2,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-PAT-117,Aditya Kumar,14,Male,SC,Patna,Fatuha,2026-04-16,CTR-010,Fatuha Center A,FW-010,Sneha Singh,931,0.89,0,1,0,2,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-GAY-118,Rajesh Sinha,7,Female,SC,Gaya,Wazirganj,2026-03-12,CTR-004,Wazirganj Center A,FW-004,Anita Devi,814,0.86,2,1,4,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-119,Aarav Ansari,9,Male,OBC,Patna,Phulwari Sharif,2026-03-27,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,880,0.98,0,1,2,3,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-GAY-120,Vivaan Paswan,11,Male,SC,Gaya,Wazirganj,2026-05-11,CTR-004,Wazirganj Center A,FW-004,Anita Devi,686,0.88,2,1,3,2,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-121,Divya Singh,11,Female,SC,Patna,Fatuha,2026-02-19,CTR-010,Fatuha Center A,FW-010,Sneha Singh,667,0.73,1,2,1,2,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-PAT-122,Arjun Das,12,Female,OBC,Patna,Bakhtiyarpur,2026-02-17,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,941,0.95,0,2,2,4,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-123,Ananya Choudhary,13,Male,SC,Patna,Phulwari Sharif,2026-03-17,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,831,0.99,0,1,1,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-124,Ananya Manjhi,7,Female,OBC,Patna,Fatuha,2026-03-13,CTR-010,Fatuha Center A,FW-010,Sneha Singh,962,0.96,0,2,0,2,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-125,Rajesh Tiwari,8,Female,General,Gaya,Mohanpur,2026-04-10,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,611,0.69,0,1,0,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-126,Vikram Prasad,10,Male,OBC,Gaya,Sherghati,2026-02-12,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,689,0.73,1,2,1,2,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-PAT-127,Neha Sinha,9,Female,OBC,Patna,Bakhtiyarpur,2026-02-17,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,771,0.78,0,2,0,2,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-128,Vihaan Sharma,11,Male,OBC,Patna,Danapur,2026-03-14,CTR-006,Danapur Center A,FW-006,Amit Sharma,984,0.83,1,2,1,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-129,Diya Sharma,8,Male,OBC,Gaya,Wazirganj,2026-03-10,CTR-004,Wazirganj Center A,FW-004,Anita Devi,730,0.94,0,0,1,0,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-130,Karan Singh,12,Male,OBC,Gaya,Mohanpur,2026-03-15,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,909,0.96,1,0,2,2,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-131,Rahul Paswan,6,Male,ST,Gaya,Mohanpur,2026-01-15,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,621,0.68,1,1,1,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-132,Jyoti Kumari,9,Female,OBC,Patna,Fatuha,2026-02-07,CTR-010,Fatuha Center A,FW-010,Sneha Singh,900,0.88,1,1,3,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-133,Riya Paswan,8,Female,OBC,Patna,Fatuha,2026-04-18,CTR-010,Fatuha Center A,FW-010,Sneha Singh,884,0.84,1,0,2,0,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-134,Aarav Kumari,10,Female,OBC,Gaya,Dobhi,2026-01-16,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,702,0.71,2,2,2,2,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-GAY-135,Aisha Khan,13,Female,OBC,Gaya,Sherghati,2026-02-04,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,874,0.93,0,1,1,2,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-136,Ananya Khan,8,Female,OBC,Gaya,Sherghati,2026-03-10,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,728,0.85,1,0,1,0,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-GAY-137,Arjun Paswan,8,Female,General,Gaya,Sherghati,2026-02-08,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,637,0.99,0,1,1,2,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-GAY-138,Amit Das,14,Female,General,Gaya,Sherghati,2026-05-10,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,998,0.86,1,2,2,4,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-139,Priya Ansari,9,Female,General,Gaya,Sherghati,2026-02-20,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,945,0.67,1,2,1,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-140,Manish Das,13,Male,ST,Gaya,Sherghati,2026-01-23,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,809,0.89,0,0,1,0,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-PAT-141,Diya Kumari,7,Male,General,Patna,Danapur,2026-03-25,CTR-006,Danapur Center A,FW-006,Amit Sharma,879,0.95,0,2,1,4,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-PAT-142,Nisha Ansari,12,Male,General,Patna,Fatuha,2026-02-10,CTR-010,Fatuha Center A,FW-010,Sneha Singh,942,0.87,2,2,4,3,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-PAT-143,Sneha Verma,7,Male,SC,Patna,Maner,2026-03-07,CTR-007,Maner Center A,FW-007,Kiran Devi,763,0.81,2,1,3,2,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-GAY-144,Rohan Tiwari,9,Female,General,Gaya,Bodh Gaya,2026-01-17,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,643,0.95,1,0,1,0,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-PAT-145,Sanjay Sharma,11,Female,OBC,Patna,Bakhtiyarpur,2026-03-03,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,912,0.97,2,0,3,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-146,Arjun Verma,8,Male,OBC,Gaya,Wazirganj,2026-04-28,CTR-004,Wazirganj Center A,FW-004,Anita Devi,982,0.83,0,1,1,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-147,Ananya Mishra,14,Female,OBC,Gaya,Wazirganj,2026-01-22,CTR-004,Wazirganj Center A,FW-004,Anita Devi,985,0.97,1,0,1,1,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-148,Kiran Tiwari,7,Male,General,Gaya,Mohanpur,2026-02-11,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,871,0.8,2,0,3,0,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-PAT-149,Sneha Verma,12,Male,General,Patna,Bakhtiyarpur,2026-01-23,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,973,0.99,0,2,1,2,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-PAT-150,Riya Kumar,10,Female,SC,Patna,Danapur,2026-02-20,CTR-006,Danapur Center A,FW-006,Amit Sharma,857,0.69,1,2,1,2,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-151,Aditya Kumari,9,Male,General,Gaya,Bodh Gaya,2026-04-12,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,630,0.88,1,1,1,1,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-152,Sneha Paswan,8,Female,SC,Gaya,Sherghati,2026-03-16,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,738,0.74,2,1,2,1,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-153,Priya Das,8,Female,OBC,Gaya,Bodh Gaya,2026-02-06,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,957,0.8,1,1,1,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-154,Aarav Manjhi,12,Male,General,Gaya,Dobhi,2026-02-27,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,890,0.93,0,2,0,2,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-155,Vivaan Mishra,13,Male,OBC,Gaya,Bodh Gaya,2026-03-16,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,632,0.83,1,0,1,1,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-156,Neha Paswan,9,Female,General,Patna,Danapur,2026-02-16,CTR-006,Danapur Center A,FW-006,Amit Sharma,836,0.86,2,2,2,3,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-157,Vivaan Prasad,6,Male,General,Gaya,Dobhi,2026-03-31,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,715,0.96,2,1,3,1,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-158,Ananya Gupta,12,Other,General,Patna,Fatuha,2026-03-24,CTR-010,Fatuha Center A,FW-010,Sneha Singh,855,0.84,2,0,2,1,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-159,Sneha Sharma,13,Female,SC,Patna,Bakhtiyarpur,2026-01-16,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,966,0.99,2,1,2,1,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-GAY-160,Arjun Singh,10,Female,OBC,Gaya,Bodh Gaya,2026-03-04,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,948,0.78,2,0,2,0,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-161,Vivaan Tiwari,11,Male,OBC,Gaya,Bodh Gaya,2026-04-13,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,646,0.78,2,1,2,1,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-162,Sunita Khan,12,Female,General,Gaya,Sherghati,2026-04-30,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,948,0.66,0,2,0,2,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-163,Amit Verma,13,Male,OBC,Patna,Fatuha,2026-01-24,CTR-010,Fatuha Center A,FW-010,Sneha Singh,691,0.99,2,0,3,0,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-164,Aditya Sinha,13,Male,OBC,Gaya,Sherghati,2026-01-29,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,990,0.93,0,0,1,0,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-GAY-165,Sunita Choudhary,10,Female,SC,Gaya,Dobhi,2026-01-18,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,879,0.91,2,0,4,1,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-GAY-166,Vihaan Singh,12,Female,OBC,Gaya,Mohanpur,2026-03-17,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,873,0.88,0,0,1,2,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-167,Manish Singh,9,Female,ST,Gaya,Wazirganj,2026-04-25,CTR-004,Wazirganj Center A,FW-004,Anita Devi,940,0.83,1,1,1,1,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-GAY-168,Kiran Yadav,14,Female,General,Gaya,Wazirganj,2026-03-10,CTR-004,Wazirganj Center A,FW-004,Anita Devi,855,0.78,2,0,3,1,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-169,Aisha Khan,12,Male,OBC,Patna,Phulwari Sharif,2026-01-22,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,820,0.95,1,2,2,3,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-170,Pooja Paswan,14,Male,OBC,Patna,Maner,2026-01-29,CTR-007,Maner Center A,FW-007,Kiran Devi,780,0.88,2,0,3,1,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-PAT-171,Ananya Rajak,13,Male,General,Patna,Maner,2026-03-09,CTR-007,Maner Center A,FW-007,Kiran Devi,828,0.78,1,0,1,1,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-172,Riya Paswan,13,Male,OBC,Patna,Fatuha,2026-04-15,CTR-010,Fatuha Center A,FW-010,Sneha Singh,617,0.73,2,2,2,2,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-173,Aarav Yadav,12,Male,OBC,Patna,Fatuha,2026-04-15,CTR-010,Fatuha Center A,FW-010,Sneha Singh,990,0.71,2,2,2,2,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-174,Mohammad Devi,13,Male,OBC,Patna,Fatuha,2026-03-09,CTR-010,Fatuha Center A,FW-010,Sneha Singh,770,0.78,1,1,1,1,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-175,Sneha Sinha,7,Male,SC,Patna,Bakhtiyarpur,2026-01-19,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,773,0.74,2,1,2,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-176,Ananya Ansari,12,Male,OBC,Patna,Bakhtiyarpur,2026-02-10,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,824,0.86,1,1,1,2,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-177,Amit Kumar,13,Female,ST,Gaya,Wazirganj,2026-05-02,CTR-004,Wazirganj Center A,FW-004,Anita Devi,700,0.89,2,0,4,1,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-178,Arjun Prasad,12,Male,OBC,Patna,Fatuha,2026-01-24,CTR-010,Fatuha Center A,FW-010,Sneha Singh,922,0.69,2,0,2,0,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-179,Rahul Sharma,12,Female,OBC,Patna,Danapur,2026-02-10,CTR-006,Danapur Center A,FW-006,Amit Sharma,964,0.67,0,1,0,1,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-180,Abhishek Choudhary,9,Female,OBC,Gaya,Mohanpur,2026-05-11,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,988,0.8,2,1,3,1,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-PAT-181,Arjun Devi,8,Male,SC,Patna,Maner,2026-03-30,CTR-007,Maner Center A,FW-007,Kiran Devi,888,0.73,0,1,0,1,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-PAT-182,Amit Paswan,7,Female,OBC,Patna,Bakhtiyarpur,2026-05-06,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,931,0.92,0,0,0,0,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-183,Rohan Gupta,9,Male,OBC,Gaya,Wazirganj,2026-02-01,CTR-004,Wazirganj Center A,FW-004,Anita Devi,735,0.85,2,0,3,0,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-184,Kajal Gupta,13,Female,OBC,Patna,Danapur,2026-04-18,CTR-006,Danapur Center A,FW-006,Amit Sharma,926,0.98,2,0,3,0,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-185,Divya Rajak,10,Male,SC,Gaya,Dobhi,2026-02-16,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,885,0.85,2,2,3,3,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-186,Priya Ansari,14,Male,General,Patna,Fatuha,2026-02-03,CTR-010,Fatuha Center A,FW-010,Sneha Singh,751,0.72,1,2,1,2,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-GAY-187,Karan Gupta,14,Male,ST,Gaya,Dobhi,2026-05-02,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,613,0.7,0,0,0,0,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-188,Rohan Singh,8,Male,SC,Gaya,Bodh Gaya,2026-05-08,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,929,0.71,2,1,2,1,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-189,Abhishek Kumari,9,Female,General,Gaya,Dobhi,2026-04-08,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,676,0.84,1,2,1,2,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-190,Aisha Prasad,14,Male,General,Patna,Fatuha,2026-01-29,CTR-010,Fatuha Center A,FW-010,Sneha Singh,628,0.9,1,1,2,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-191,Pooja Sinha,7,Female,General,Patna,Bakhtiyarpur,2026-03-28,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,634,0.8,2,2,2,2,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-192,Abhishek Kumari,11,Male,OBC,Patna,Danapur,2026-03-13,CTR-006,Danapur Center A,FW-006,Amit Sharma,729,0.81,2,2,2,3,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-193,Sunita Rajak,13,Male,OBC,Patna,Bakhtiyarpur,2026-01-28,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,680,0.73,1,1,1,1,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-194,Ananya Paswan,11,Female,SC,Gaya,Mohanpur,2026-03-27,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,697,0.95,0,2,0,2,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-195,Kajal Sharma,7,Female,General,Patna,Fatuha,2026-04-12,CTR-010,Fatuha Center A,FW-010,Sneha Singh,867,0.78,1,1,2,1,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-196,Rahul Sinha,14,Female,ST,Gaya,Dobhi,2026-03-16,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,922,1,2,0,4,0,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-GAY-197,Aarav Sinha,13,Female,General,Gaya,Mohanpur,2026-03-03,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,746,0.76,1,2,2,2,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-198,Rajesh Singh,10,Male,General,Patna,Phulwari Sharif,2026-05-11,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,765,0.75,0,0,0,0,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-GAY-199,Vivaan Singh,13,Female,SC,Gaya,Mohanpur,2026-03-10,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,682,0.72,0,2,0,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-200,Kajal Manjhi,10,Female,SC,Gaya,Dobhi,2026-03-27,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,743,0.75,2,2,2,2,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-201,Priya Choudhary,6,Male,OBC,Patna,Bakhtiyarpur,2026-03-19,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,976,0.84,0,0,0,0,2026-06-11,2026-06-20T19:30:00Z,false
+SOP-PAT-202,Aarav Devi,8,Male,OBC,Patna,Bakhtiyarpur,2026-02-06,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,626,0.66,0,0,0,0,2026-06-09,2026-06-19T19:30:00Z,false
+SOP-PAT-203,Sunita Khan,11,Male,SC,Patna,Fatuha,2026-05-02,CTR-010,Fatuha Center A,FW-010,Sneha Singh,626,0.94,1,2,2,2,2026-06-05,2026-06-16T19:30:00Z,false
+SOP-PAT-204,Amit Singh,13,Female,OBC,Patna,Phulwari Sharif,2026-03-17,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,819,0.75,0,2,0,2,2026-06-08,2026-06-20T19:30:00Z,false
+SOP-PAT-205,Rahul Paswan,11,Female,OBC,Patna,Phulwari Sharif,2026-05-03,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,818,0.73,1,2,1,2,2026-06-07,2026-06-20T19:30:00Z,false
+SOP-PAT-206,Divya Tiwari,6,Male,General,Patna,Bakhtiyarpur,2026-03-17,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,967,0.7,1,0,1,0,2026-06-09,2026-06-18T19:30:00Z,false
+SOP-GAY-207,Sanjay Tiwari,14,Female,ST,Gaya,Sherghati,2026-03-09,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,715,0.9,2,0,3,2,2026-06-11,2026-06-21T19:30:00Z,false
+SOP-PAT-208,Priya Rajak,14,Male,General,Patna,Fatuha,2026-02-09,CTR-010,Fatuha Center A,FW-010,Sneha Singh,870,0.86,0,0,2,2,2026-06-09,2026-06-20T19:30:00Z,false
+SOP-GAY-209,Kiran Sharma,12,Male,OBC,Gaya,Dobhi,2026-02-09,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,654,0.8,2,2,2,2,2026-06-09,2026-06-21T19:30:00Z,false
+SOP-PAT-210,Amit Das,9,Male,OBC,Patna,Maner,2026-03-22,CTR-007,Maner Center A,FW-007,Kiran Devi,616,0.76,2,0,2,1,2026-06-06,2026-06-19T19:30:00Z,false
+SOP-PAT-211,Aditya Gupta,13,Female,SC,Patna,Bakhtiyarpur,2026-02-15,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,647,0.66,1,1,1,1,2026-06-05,2026-06-14T19:30:00Z,false
+SOP-GAY-212,Kajal Tiwari,14,Female,OBC,Gaya,Dobhi,2026-04-10,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,812,0.79,0,1,1,1,2026-06-08,2026-06-18T19:30:00Z,false
+SOP-GAY-213,Aarav Kumar,14,Female,General,Gaya,Sherghati,2026-04-26,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,925,0.95,0,0,2,0,2026-06-05,2026-06-16T19:30:00Z,false
+SOP-PAT-214,Aisha Das,13,Male,OBC,Patna,Danapur,2026-02-08,CTR-006,Danapur Center A,FW-006,Amit Sharma,646,0.65,2,1,2,1,2026-06-05,2026-06-17T19:30:00Z,false
+SOP-PAT-215,Jyoti Paswan,10,Male,General,Patna,Fatuha,2026-03-13,CTR-010,Fatuha Center A,FW-010,Sneha Singh,729,0.9,2,1,2,1,2026-06-08,2026-06-21T19:30:00Z,false
+SOP-GAY-216,Diya Prasad,7,Female,OBC,Gaya,Wazirganj,2026-03-25,CTR-004,Wazirganj Center A,FW-004,Anita Devi,802,0.94,2,1,3,2,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-217,Rohan Manjhi,8,Male,SC,Patna,Bakhtiyarpur,2026-03-19,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,948,0.71,2,1,2,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-218,Nisha Mishra,10,Female,SC,Gaya,Wazirganj,2026-03-19,CTR-004,Wazirganj Center A,FW-004,Anita Devi,660,0.77,1,0,1,1,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-GAY-219,Vikram Gupta,9,Male,OBC,Gaya,Wazirganj,2026-04-12,CTR-004,Wazirganj Center A,FW-004,Anita Devi,880,0.68,1,2,1,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-220,Riya Kumari,13,Female,General,Gaya,Mohanpur,2026-02-01,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,978,0.87,0,1,1,2,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-221,Sunita Devi,11,Male,OBC,Patna,Phulwari Sharif,2026-04-27,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,873,0.96,2,0,3,2,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-PAT-222,Aditya Choudhary,11,Male,OBC,Patna,Fatuha,2026-03-13,CTR-010,Fatuha Center A,FW-010,Sneha Singh,940,0.94,1,0,2,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-223,Nisha Ansari,8,Female,OBC,Gaya,Bodh Gaya,2026-05-03,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,847,0.73,1,2,1,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-224,Karan Mishra,8,Male,General,Gaya,Mohanpur,2026-05-11,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,700,0.72,2,2,2,2,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-225,Ananya Mishra,13,Female,SC,Patna,Phulwari Sharif,2026-05-02,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,616,0.83,1,1,2,1,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-PAT-226,Vikram Paswan,13,Female,SC,Patna,Bakhtiyarpur,2026-04-02,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,626,0.89,0,2,1,4,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-227,Divya Khan,14,Female,OBC,Patna,Phulwari Sharif,2026-04-17,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,602,0.7,1,2,1,2,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-228,Amit Devi,13,Female,OBC,Patna,Danapur,2026-05-03,CTR-006,Danapur Center A,FW-006,Amit Sharma,678,0.89,0,2,0,4,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-229,Aditya Paswan,7,Female,SC,Gaya,Wazirganj,2026-02-08,CTR-004,Wazirganj Center A,FW-004,Anita Devi,631,0.94,0,1,0,2,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-230,Rohan Rajak,6,Male,OBC,Patna,Danapur,2026-03-28,CTR-006,Danapur Center A,FW-006,Amit Sharma,664,0.82,1,2,1,2,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-PAT-231,Vivaan Kumari,6,Female,ST,Patna,Danapur,2026-03-21,CTR-006,Danapur Center A,FW-006,Amit Sharma,836,0.67,1,0,1,0,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-PAT-232,Sneha Sharma,6,Female,General,Patna,Danapur,2026-04-30,CTR-006,Danapur Center A,FW-006,Amit Sharma,679,0.81,0,2,1,3,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-PAT-233,Amit Gupta,14,Female,OBC,Patna,Bakhtiyarpur,2026-03-19,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,654,0.77,1,2,2,2,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-234,Manish Prasad,10,Male,OBC,Patna,Phulwari Sharif,2026-04-05,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,874,0.8,1,2,2,2,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-235,Nisha Kumar,12,Male,OBC,Gaya,Sherghati,2026-01-30,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,988,0.75,2,0,2,0,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-236,Fatima Das,7,Male,General,Patna,Bakhtiyarpur,2026-03-24,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,986,0.86,2,2,2,4,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-GAY-237,Divya Das,9,Female,OBC,Gaya,Sherghati,2026-02-07,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,764,0.67,1,1,1,1,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-238,Vikram Devi,12,Male,OBC,Patna,Bakhtiyarpur,2026-05-08,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,763,0.81,0,1,0,2,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-239,Sunita Sharma,7,Male,SC,Patna,Fatuha,2026-04-19,CTR-010,Fatuha Center A,FW-010,Sneha Singh,753,0.8,1,1,1,2,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-240,Divya Singh,10,Female,ST,Gaya,Sherghati,2026-03-03,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,798,0.65,0,2,0,2,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-PAT-241,Amit Khan,6,Female,OBC,Patna,Bakhtiyarpur,2026-03-31,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,893,0.8,2,0,3,0,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-PAT-242,Vikram Kumar,10,Female,SC,Patna,Danapur,2026-02-21,CTR-006,Danapur Center A,FW-006,Amit Sharma,811,0.8,2,2,2,3,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-243,Aisha Paswan,9,Male,OBC,Patna,Bakhtiyarpur,2026-03-10,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,660,0.98,2,1,4,2,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-244,Rajesh Manjhi,13,Male,OBC,Gaya,Dobhi,2026-04-11,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,650,0.81,1,0,2,0,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-245,Kajal Yadav,13,Female,OBC,Gaya,Mohanpur,2026-01-31,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,851,0.69,0,1,0,1,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-PAT-246,Rahul Prasad,13,Male,OBC,Patna,Bakhtiyarpur,2026-04-24,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,984,0.89,0,2,1,3,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-247,Nisha Singh,13,Male,OBC,Patna,Danapur,2026-05-10,CTR-006,Danapur Center A,FW-006,Amit Sharma,726,0.79,0,2,1,3,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-248,Kajal Kumari,11,Female,OBC,Gaya,Dobhi,2026-03-13,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,836,0.74,0,0,0,0,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-249,Priya Das,11,Male,SC,Gaya,Mohanpur,2026-01-20,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,975,0.87,0,1,1,2,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-250,Sunita Tiwari,13,Female,OBC,Gaya,Wazirganj,2026-01-22,CTR-004,Wazirganj Center A,FW-004,Anita Devi,873,0.68,1,1,1,1,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-251,Kiran Mishra,14,Other,General,Patna,Fatuha,2026-04-04,CTR-010,Fatuha Center A,FW-010,Sneha Singh,789,0.96,1,0,2,2,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-252,Neha Paswan,8,Female,SC,Patna,Bakhtiyarpur,2026-02-05,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,737,1,2,2,2,3,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-253,Vivaan Gupta,10,Male,ST,Patna,Danapur,2026-03-06,CTR-006,Danapur Center A,FW-006,Amit Sharma,867,0.74,1,1,1,1,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-254,Riya Manjhi,12,Female,General,Gaya,Dobhi,2026-04-11,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,613,0.8,1,0,1,0,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-PAT-255,Aditya Sinha,10,Male,General,Patna,Phulwari Sharif,2026-04-20,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,960,0.74,0,0,0,0,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-256,Kajal Ansari,6,Male,OBC,Patna,Maner,2026-03-11,CTR-007,Maner Center A,FW-007,Kiran Devi,768,0.76,2,2,2,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-257,Manish Khan,13,Female,OBC,Gaya,Wazirganj,2026-04-24,CTR-004,Wazirganj Center A,FW-004,Anita Devi,659,0.82,2,1,2,2,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-258,Diya Verma,11,Female,General,Patna,Fatuha,2026-04-20,CTR-010,Fatuha Center A,FW-010,Sneha Singh,603,0.71,2,2,2,2,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-259,Abhishek Rajak,14,Female,SC,Patna,Bakhtiyarpur,2026-02-17,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,716,0.66,1,1,1,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-260,Amit Ansari,11,Female,OBC,Patna,Maner,2026-05-09,CTR-007,Maner Center A,FW-007,Kiran Devi,676,0.81,1,0,2,0,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-261,Arjun Singh,7,Male,General,Gaya,Mohanpur,2026-02-03,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,600,1,0,0,1,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-262,Sunita Khan,9,Female,OBC,Patna,Bakhtiyarpur,2026-05-02,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,804,0.95,1,1,1,1,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-263,Sanjay Rajak,13,Male,ST,Patna,Danapur,2026-04-16,CTR-006,Danapur Center A,FW-006,Amit Sharma,825,0.84,2,0,3,0,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-PAT-264,Vihaan Singh,12,Male,OBC,Patna,Phulwari Sharif,2026-03-29,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,864,0.96,0,2,0,3,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-GAY-265,Vivaan Devi,12,Female,OBC,Gaya,Dobhi,2026-04-28,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,816,0.84,1,0,1,0,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-266,Neha Paswan,9,Male,OBC,Gaya,Mohanpur,2026-03-01,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,878,0.71,2,1,2,1,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-267,Jyoti Khan,8,Female,General,Patna,Phulwari Sharif,2026-04-17,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,941,0.66,1,1,1,1,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-GAY-268,Neha Gupta,9,Female,OBC,Gaya,Sherghati,2026-04-19,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,678,0.7,1,0,1,0,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-269,Aisha Devi,12,Male,SC,Gaya,Bodh Gaya,2026-04-10,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,734,0.95,1,1,2,3,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-270,Amit Tiwari,13,Male,OBC,Patna,Maner,2026-01-26,CTR-007,Maner Center A,FW-007,Kiran Devi,770,0.73,0,1,0,1,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-PAT-271,Mohammad Prasad,13,Male,OBC,Patna,Maner,2026-03-19,CTR-007,Maner Center A,FW-007,Kiran Devi,604,0.76,2,0,2,1,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-272,Mohammad Paswan,11,Female,SC,Patna,Phulwari Sharif,2026-04-30,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,726,0.81,0,2,1,2,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-273,Rohan Ansari,9,Male,General,Gaya,Dobhi,2026-03-11,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,956,0.74,2,1,2,1,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-PAT-274,Kajal Paswan,11,Male,OBC,Patna,Maner,2026-02-07,CTR-007,Maner Center A,FW-007,Kiran Devi,727,0.96,1,0,1,1,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-275,Ananya Gupta,6,Male,General,Patna,Danapur,2026-01-28,CTR-006,Danapur Center A,FW-006,Amit Sharma,947,0.97,2,0,2,1,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-276,Rajesh Kumari,12,Male,OBC,Gaya,Dobhi,2026-01-22,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,887,0.74,0,1,0,1,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-PAT-277,Sanjay Devi,7,Male,General,Patna,Maner,2026-01-21,CTR-007,Maner Center A,FW-007,Kiran Devi,643,0.97,1,1,2,2,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-278,Mohammad Singh,13,Male,OBC,Gaya,Dobhi,2026-03-22,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,893,0.83,1,0,2,1,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-279,Fatima Rajak,12,Male,OBC,Gaya,Bodh Gaya,2026-01-27,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,839,0.75,1,1,1,1,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-GAY-280,Kiran Singh,8,Male,SC,Gaya,Mohanpur,2026-03-15,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,853,0.92,0,1,1,2,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-281,Mohammad Khan,6,Female,SC,Gaya,Mohanpur,2026-04-23,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,727,1,0,2,0,2,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-282,Diya Paswan,12,Male,OBC,Gaya,Mohanpur,2026-03-05,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,633,1,1,0,2,2,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-283,Riya Sinha,11,Female,OBC,Patna,Phulwari Sharif,2026-05-08,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,801,0.69,2,0,2,0,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-GAY-284,Karan Sinha,12,Female,ST,Gaya,Sherghati,2026-04-14,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,892,1,2,0,2,0,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-285,Sunita Devi,13,Female,OBC,Gaya,Bodh Gaya,2026-02-28,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,723,0.77,2,2,3,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-286,Manish Sharma,8,Female,ST,Patna,Maner,2026-02-16,CTR-007,Maner Center A,FW-007,Kiran Devi,630,0.86,1,2,2,2,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-287,Riya Manjhi,9,Female,OBC,Gaya,Wazirganj,2026-01-14,CTR-004,Wazirganj Center A,FW-004,Anita Devi,748,0.78,0,0,1,0,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-288,Vivaan Prasad,6,Male,OBC,Gaya,Wazirganj,2026-04-29,CTR-004,Wazirganj Center A,FW-004,Anita Devi,636,0.83,1,0,1,0,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-289,Abhishek Sharma,12,Male,OBC,Gaya,Wazirganj,2026-04-09,CTR-004,Wazirganj Center A,FW-004,Anita Devi,703,0.89,1,1,1,1,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-290,Jyoti Sinha,13,Male,OBC,Gaya,Wazirganj,2026-02-17,CTR-004,Wazirganj Center A,FW-004,Anita Devi,833,0.98,2,2,2,2,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-291,Vivaan Prasad,14,Female,OBC,Patna,Maner,2026-03-06,CTR-007,Maner Center A,FW-007,Kiran Devi,630,0.7,1,1,1,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-292,Rohan Paswan,7,Female,OBC,Gaya,Mohanpur,2026-04-11,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,999,0.82,2,1,2,1,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-293,Sneha Choudhary,8,Female,SC,Gaya,Wazirganj,2026-03-30,CTR-004,Wazirganj Center A,FW-004,Anita Devi,939,0.81,2,1,3,1,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-294,Kiran Devi,6,Female,OBC,Patna,Phulwari Sharif,2026-01-24,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,977,0.9,1,2,3,2,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-295,Rohan Das,14,Female,OBC,Patna,Danapur,2026-01-26,CTR-006,Danapur Center A,FW-006,Amit Sharma,762,0.96,2,2,4,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-296,Ananya Sinha,6,Female,OBC,Gaya,Dobhi,2026-01-23,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,633,0.68,1,1,1,1,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-297,Vivaan Yadav,11,Male,SC,Gaya,Wazirganj,2026-04-21,CTR-004,Wazirganj Center A,FW-004,Anita Devi,995,0.96,1,1,2,3,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-GAY-298,Rajesh Ansari,14,Male,OBC,Gaya,Dobhi,2026-02-26,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,952,0.74,1,2,1,2,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-299,Rahul Rajak,10,Female,OBC,Gaya,Wazirganj,2026-03-05,CTR-004,Wazirganj Center A,FW-004,Anita Devi,600,0.92,1,0,3,0,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-GAY-300,Vihaan Sharma,14,Male,OBC,Gaya,Dobhi,2026-03-18,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,666,0.87,2,2,2,4,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-PAT-301,Abhishek Choudhary,8,Male,OBC,Patna,Maner,2026-03-07,CTR-007,Maner Center A,FW-007,Kiran Devi,841,0.89,2,0,2,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-302,Kiran Ansari,12,Male,General,Gaya,Dobhi,2026-04-06,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,915,0.85,0,0,0,0,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-303,Aarav Rajak,8,Female,OBC,Gaya,Dobhi,2026-01-20,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,718,0.77,2,0,2,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-304,Abhishek Khan,14,Female,General,Patna,Phulwari Sharif,2026-03-25,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,879,0.83,0,0,1,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-305,Sunita Prasad,10,Male,OBC,Patna,Danapur,2026-04-17,CTR-006,Danapur Center A,FW-006,Amit Sharma,892,0.78,2,2,3,2,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-GAY-306,Divya Kumari,14,Male,OBC,Gaya,Bodh Gaya,2026-02-22,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,755,0.66,0,0,0,0,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-307,Neha Devi,11,Male,OBC,Patna,Danapur,2026-04-08,CTR-006,Danapur Center A,FW-006,Amit Sharma,806,0.95,2,0,2,2,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-PAT-308,Aarav Prasad,8,Female,OBC,Patna,Bakhtiyarpur,2026-04-26,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,991,0.81,1,2,2,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-PAT-309,Arjun Kumari,6,Female,SC,Patna,Maner,2026-03-31,CTR-007,Maner Center A,FW-007,Kiran Devi,726,0.67,2,2,2,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-310,Sanjay Mishra,12,Male,SC,Patna,Maner,2026-04-09,CTR-007,Maner Center A,FW-007,Kiran Devi,956,0.77,2,1,2,2,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-311,Arjun Devi,13,Female,OBC,Gaya,Mohanpur,2026-03-12,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,837,0.68,2,2,2,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-312,Rajesh Paswan,11,Female,General,Gaya,Wazirganj,2026-01-22,CTR-004,Wazirganj Center A,FW-004,Anita Devi,714,0.66,0,2,0,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-313,Pooja Devi,9,Female,OBC,Gaya,Wazirganj,2026-04-15,CTR-004,Wazirganj Center A,FW-004,Anita Devi,925,0.75,0,1,0,1,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-314,Aarav Ansari,10,Male,SC,Patna,Fatuha,2026-04-25,CTR-010,Fatuha Center A,FW-010,Sneha Singh,783,0.99,0,1,2,2,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-GAY-315,Sunita Prasad,12,Female,OBC,Gaya,Dobhi,2026-02-28,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,873,0.66,0,2,0,2,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-GAY-316,Rajesh Sharma,9,Male,SC,Gaya,Bodh Gaya,2026-03-30,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,910,0.88,0,0,1,1,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-GAY-317,Nisha Kumari,8,Female,SC,Gaya,Bodh Gaya,2026-03-10,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,623,0.77,0,0,0,1,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-GAY-318,Divya Singh,8,Male,General,Gaya,Bodh Gaya,2026-04-25,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,880,0.75,1,2,1,2,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-GAY-319,Karan Tiwari,13,Male,OBC,Gaya,Dobhi,2026-04-08,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,967,0.93,2,2,4,4,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-320,Rohan Paswan,14,Female,SC,Gaya,Sherghati,2026-01-18,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,958,0.77,0,2,1,3,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-321,Riya Tiwari,14,Male,General,Gaya,Dobhi,2026-04-13,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,706,0.88,1,0,2,0,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-322,Jyoti Khan,6,Female,OBC,Patna,Maner,2026-01-31,CTR-007,Maner Center A,FW-007,Kiran Devi,886,0.86,0,0,1,2,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-GAY-323,Arjun Verma,8,Female,OBC,Gaya,Wazirganj,2026-02-28,CTR-004,Wazirganj Center A,FW-004,Anita Devi,817,0.73,0,1,0,1,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-324,Arjun Kumar,12,Male,OBC,Patna,Maner,2026-03-04,CTR-007,Maner Center A,FW-007,Kiran Devi,737,0.7,1,0,1,0,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-325,Vivaan Prasad,6,Female,SC,Patna,Maner,2026-03-26,CTR-007,Maner Center A,FW-007,Kiran Devi,718,0.68,2,0,2,0,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-PAT-326,Pooja Das,6,Male,OBC,Patna,Danapur,2026-02-18,CTR-006,Danapur Center A,FW-006,Amit Sharma,646,0.69,0,2,0,2,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-PAT-327,Mohammad Prasad,13,Male,General,Patna,Phulwari Sharif,2026-01-14,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,742,0.78,1,2,1,2,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-PAT-328,Rajesh Paswan,10,Male,SC,Patna,Phulwari Sharif,2026-01-22,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,956,0.69,0,1,0,1,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-GAY-329,Vihaan Verma,8,Female,SC,Gaya,Sherghati,2026-03-03,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,932,0.87,1,2,1,4,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-330,Mohammad Prasad,7,Male,OBC,Patna,Danapur,2026-02-02,CTR-006,Danapur Center A,FW-006,Amit Sharma,658,0.91,2,2,3,3,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-331,Pooja Khan,14,Female,OBC,Patna,Bakhtiyarpur,2026-02-28,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,907,0.91,2,0,2,0,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-332,Kiran Sharma,13,Male,OBC,Patna,Maner,2026-03-16,CTR-007,Maner Center A,FW-007,Kiran Devi,949,0.88,0,2,2,3,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-333,Aarav Kumari,8,Male,SC,Gaya,Bodh Gaya,2026-03-10,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,968,0.81,0,0,0,1,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-334,Rajesh Prasad,6,Female,OBC,Gaya,Dobhi,2026-04-01,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,767,0.86,0,0,0,2,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-PAT-335,Aditya Sinha,6,Female,OBC,Patna,Phulwari Sharif,2026-02-27,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,718,0.65,0,2,0,2,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-336,Arjun Kumari,6,Female,OBC,Gaya,Mohanpur,2026-02-13,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,623,0.73,1,2,1,2,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-PAT-337,Aisha Singh,12,Female,SC,Patna,Phulwari Sharif,2026-04-22,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,748,0.81,2,1,3,2,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-338,Kajal Sinha,11,Male,OBC,Gaya,Wazirganj,2026-04-01,CTR-004,Wazirganj Center A,FW-004,Anita Devi,606,0.86,2,1,2,2,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-PAT-339,Aarav Das,10,Female,SC,Patna,Fatuha,2026-04-18,CTR-010,Fatuha Center A,FW-010,Sneha Singh,946,0.87,0,1,1,3,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-PAT-340,Ananya Sharma,7,Male,OBC,Patna,Phulwari Sharif,2026-03-02,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,695,0.78,0,2,1,2,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-GAY-341,Priya Manjhi,10,Male,OBC,Gaya,Bodh Gaya,2026-02-22,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,600,0.65,0,0,0,0,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-GAY-342,Sanjay Devi,8,Female,OBC,Gaya,Mohanpur,2026-03-05,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,782,0.76,0,1,1,1,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-343,Abhishek Tiwari,13,Female,OBC,Patna,Bakhtiyarpur,2026-01-24,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,710,0.93,2,2,2,3,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-344,Abhishek Paswan,8,Male,SC,Patna,Bakhtiyarpur,2026-02-11,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,881,0.86,2,0,2,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-345,Fatima Mishra,8,Male,SC,Patna,Fatuha,2026-03-30,CTR-010,Fatuha Center A,FW-010,Sneha Singh,967,0.96,2,2,4,3,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-346,Arjun Choudhary,7,Female,OBC,Gaya,Mohanpur,2026-01-24,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,855,0.75,1,1,1,1,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-GAY-347,Karan Sharma,12,Male,OBC,Gaya,Bodh Gaya,2026-03-09,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,714,0.95,1,0,3,1,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-348,Vivaan Yadav,9,Female,OBC,Gaya,Sherghati,2026-04-22,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,682,0.82,0,1,0,2,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-349,Neha Devi,6,Male,OBC,Patna,Bakhtiyarpur,2026-02-11,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,883,0.83,0,1,0,2,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-GAY-350,Priya Rajak,13,Male,OBC,Gaya,Dobhi,2026-02-08,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,701,0.72,1,2,1,2,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-GAY-351,Vihaan Singh,13,Male,OBC,Gaya,Dobhi,2026-02-15,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,756,0.95,1,0,5,1,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-352,Jyoti Manjhi,11,Female,OBC,Patna,Danapur,2026-01-21,CTR-006,Danapur Center A,FW-006,Amit Sharma,658,0.86,1,1,3,-1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-353,Kiran Kumar,9,Female,OBC,Patna,Danapur,2026-01-28,CTR-006,Danapur Center A,FW-006,Amit Sharma,615,0.82,0,0,6,1,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-354,Rohan Gupta,7,Male,General,Gaya,Mohanpur,2026-04-08,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,692,0.65,2,1,2,1,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-355,Nisha Ansari,8,Male,OBC,Patna,Maner,2026-03-14,CTR-007,Maner Center A,FW-007,Kiran Devi,857,0.89,0,0,2,0,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-356,Kajal Paswan,7,Female,OBC,Patna,Phulwari Sharif,2026-02-16,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,924,0.67,1,2,1,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-PAT-357,Riya Paswan,12,Female,OBC,Patna,Danapur,2026-02-14,CTR-006,Danapur Center A,FW-006,Amit Sharma,992,0.65,2,0,2,0,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-PAT-358,Riya Paswan,9,Male,OBC,Patna,Bakhtiyarpur,2026-03-11,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,773,0.68,1,2,1,2,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-359,Diya Kumari,11,Male,General,Patna,Phulwari Sharif,2026-04-20,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,862,0.67,1,0,1,0,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-PAT-360,Nisha Manjhi,8,Male,OBC,Patna,Maner,2026-04-03,CTR-007,Maner Center A,FW-007,Kiran Devi,949,0.97,2,2,2,3,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-361,Sneha Ansari,13,Female,OBC,Patna,Fatuha,2026-04-11,CTR-010,Fatuha Center A,FW-010,Sneha Singh,715,0.99,0,0,1,1,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-PAT-362,Sneha Yadav,6,Male,General,Patna,Bakhtiyarpur,2026-02-18,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,849,0.76,1,2,1,3,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-363,Rahul Manjhi,6,Male,OBC,Gaya,Sherghati,2026-03-18,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,861,0.68,0,2,0,2,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-GAY-364,Vivaan Das,12,Male,OBC,Gaya,Sherghati,2026-02-02,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,814,0.87,0,2,1,3,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-GAY-365,Karan Manjhi,11,Male,General,Gaya,Dobhi,2026-03-23,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,886,0.86,2,2,2,4,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-PAT-366,Sanjay Sinha,9,Male,OBC,Patna,Danapur,2026-01-27,CTR-006,Danapur Center A,FW-006,Amit Sharma,915,0.77,2,0,3,0,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-367,Mohammad Sharma,10,Female,General,Patna,Maner,2026-04-15,CTR-007,Maner Center A,FW-007,Kiran Devi,705,0.77,0,2,0,3,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-368,Rajesh Kumari,12,Male,OBC,Gaya,Sherghati,2026-04-14,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,965,0.98,0,2,0,3,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-369,Abhishek Rajak,13,Female,General,Gaya,Dobhi,2026-03-07,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,842,0.88,2,0,3,1,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-370,Mohammad Sharma,13,Male,SC,Patna,Danapur,2026-02-14,CTR-006,Danapur Center A,FW-006,Amit Sharma,746,0.67,1,0,1,0,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-371,Rohan Paswan,13,Male,OBC,Patna,Danapur,2026-03-05,CTR-006,Danapur Center A,FW-006,Amit Sharma,921,0.68,0,2,0,2,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-372,Diya Devi,6,Male,SC,Patna,Danapur,2026-03-06,CTR-006,Danapur Center A,FW-006,Amit Sharma,902,0.82,0,0,0,0,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-373,Arjun Kumari,8,Male,OBC,Patna,Fatuha,2026-03-10,CTR-010,Fatuha Center A,FW-010,Sneha Singh,756,0.97,1,0,1,1,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-374,Karan Kumar,10,Female,OBC,Patna,Maner,2026-05-07,CTR-007,Maner Center A,FW-007,Kiran Devi,604,0.81,2,2,3,3,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-375,Diya Das,14,Male,OBC,Gaya,Dobhi,2026-03-21,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,843,0.7,0,2,0,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-376,Karan Sharma,7,Male,OBC,Gaya,Mohanpur,2026-03-25,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,681,0.74,1,2,1,2,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-PAT-377,Aarav Rajak,7,Female,OBC,Patna,Danapur,2026-04-03,CTR-006,Danapur Center A,FW-006,Amit Sharma,683,0.86,1,1,2,2,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-378,Riya Kumar,9,Female,SC,Gaya,Dobhi,2026-03-21,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,828,0.7,0,2,0,2,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-379,Neha Rajak,6,Female,OBC,Patna,Maner,2026-02-22,CTR-007,Maner Center A,FW-007,Kiran Devi,795,0.97,1,0,3,1,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-380,Jyoti Devi,13,Male,SC,Patna,Phulwari Sharif,2026-01-16,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,929,0.69,0,2,0,2,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-GAY-381,Sneha Gupta,11,Female,General,Gaya,Sherghati,2026-03-12,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,892,0.87,1,0,2,1,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-382,Vikram Kumari,13,Male,OBC,Patna,Maner,2026-01-21,CTR-007,Maner Center A,FW-007,Kiran Devi,891,0.93,1,2,1,3,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-383,Amit Kumari,13,Male,OBC,Gaya,Wazirganj,2026-03-30,CTR-004,Wazirganj Center A,FW-004,Anita Devi,768,0.81,0,2,1,3,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-384,Riya Kumari,7,Female,OBC,Gaya,Bodh Gaya,2026-03-17,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,781,0.74,1,0,1,0,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-385,Diya Khan,8,Female,SC,Gaya,Dobhi,2026-04-02,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,744,0.82,2,0,3,0,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-386,Vivaan Sharma,14,Female,General,Patna,Bakhtiyarpur,2026-03-08,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,834,0.95,2,2,2,4,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-387,Aisha Manjhi,14,Female,OBC,Gaya,Mohanpur,2026-05-07,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,811,0.78,1,1,1,1,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-PAT-388,Vikram Ansari,6,Male,SC,Patna,Bakhtiyarpur,2026-04-03,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,600,0.76,2,0,3,1,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-389,Kajal Yadav,13,Female,OBC,Gaya,Sherghati,2026-04-10,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,665,0.96,1,1,2,3,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-390,Jyoti Yadav,10,Female,OBC,Patna,Fatuha,2026-02-28,CTR-010,Fatuha Center A,FW-010,Sneha Singh,775,0.96,0,2,1,3,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-391,Rahul Choudhary,10,Female,OBC,Gaya,Sherghati,2026-04-08,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,705,0.75,2,2,2,2,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-GAY-392,Divya Sinha,13,Male,OBC,Gaya,Dobhi,2026-03-21,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,654,0.85,2,1,2,1,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-393,Fatima Prasad,11,Male,OBC,Patna,Bakhtiyarpur,2026-05-08,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,889,0.68,1,1,1,1,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-PAT-394,Sneha Verma,10,Male,SC,Patna,Danapur,2026-02-05,CTR-006,Danapur Center A,FW-006,Amit Sharma,819,0.89,0,2,2,2,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-GAY-395,Riya Kumar,11,Female,General,Gaya,Sherghati,2026-04-22,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,685,0.86,0,0,0,1,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-396,Vivaan Mishra,12,Female,OBC,Gaya,Wazirganj,2026-02-19,CTR-004,Wazirganj Center A,FW-004,Anita Devi,820,0.68,0,2,0,2,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-397,Sunita Ansari,8,Male,OBC,Patna,Fatuha,2026-05-08,CTR-010,Fatuha Center A,FW-010,Sneha Singh,618,0.8,2,0,2,0,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-398,Sneha Kumari,6,Female,OBC,Gaya,Bodh Gaya,2026-01-27,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,850,0.71,0,1,0,1,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-PAT-399,Aarav Sharma,11,Female,OBC,Patna,Maner,2026-03-06,CTR-007,Maner Center A,FW-007,Kiran Devi,898,0.76,2,1,2,2,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-400,Ananya Rajak,12,Male,SC,Gaya,Mohanpur,2026-04-09,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,746,0.96,1,2,2,2,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-401,Rohan Sharma,8,Male,OBC,Gaya,Bodh Gaya,2026-04-22,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,848,0.98,0,1,1,2,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-GAY-402,Arjun Das,11,Female,ST,Gaya,Sherghati,2026-02-10,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,737,0.85,2,2,3,2,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-403,Manish Kumar,14,Female,SC,Patna,Danapur,2026-04-18,CTR-006,Danapur Center A,FW-006,Amit Sharma,626,0.99,1,2,2,4,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-404,Sanjay Kumari,10,Female,SC,Patna,Bakhtiyarpur,2026-03-06,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,687,0.65,1,2,1,2,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-405,Kajal Devi,6,Female,General,Gaya,Sherghati,2026-03-04,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,733,0.97,0,1,1,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-406,Fatima Mishra,6,Female,OBC,Patna,Danapur,2026-03-24,CTR-006,Danapur Center A,FW-006,Amit Sharma,763,0.68,2,2,2,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-407,Aditya Mishra,9,Male,OBC,Patna,Danapur,2026-02-08,CTR-006,Danapur Center A,FW-006,Amit Sharma,812,0.79,0,1,1,1,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-408,Rahul Khan,14,Female,General,Gaya,Sherghati,2026-04-26,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,868,0.94,1,2,1,2,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-409,Aisha Khan,13,Female,OBC,Gaya,Bodh Gaya,2026-01-28,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,700,0.84,1,1,2,1,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-PAT-410,Amit Sharma,7,Female,OBC,Patna,Maner,2026-01-21,CTR-007,Maner Center A,FW-007,Kiran Devi,958,0.68,0,0,0,0,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-411,Rohan Manjhi,10,Male,OBC,Gaya,Sherghati,2026-04-06,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,969,0.87,1,2,2,2,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-412,Vikram Paswan,9,Male,General,Gaya,Mohanpur,2026-04-07,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,622,0.73,2,2,2,2,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-413,Nisha Prasad,13,Male,OBC,Patna,Phulwari Sharif,2026-04-26,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,866,0.97,1,0,2,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-414,Kajal Prasad,13,Female,ST,Gaya,Sherghati,2026-03-11,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,909,0.83,2,1,2,1,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-GAY-415,Aisha Gupta,9,Male,OBC,Gaya,Wazirganj,2026-03-27,CTR-004,Wazirganj Center A,FW-004,Anita Devi,707,0.69,1,1,1,1,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-416,Priya Verma,9,Male,OBC,Gaya,Sherghati,2026-05-05,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,996,0.77,0,1,0,1,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-417,Priya Gupta,6,Female,SC,Patna,Danapur,2026-04-02,CTR-006,Danapur Center A,FW-006,Amit Sharma,776,0.97,2,0,3,1,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-418,Manish Rajak,12,Male,SC,Patna,Phulwari Sharif,2026-04-25,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,609,0.87,0,2,1,4,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-419,Diya Khan,10,Male,OBC,Gaya,Wazirganj,2026-05-01,CTR-004,Wazirganj Center A,FW-004,Anita Devi,802,0.96,2,1,4,2,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-GAY-420,Sneha Rajak,14,Female,OBC,Gaya,Wazirganj,2026-02-14,CTR-004,Wazirganj Center A,FW-004,Anita Devi,712,0.92,1,2,2,3,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-421,Amit Devi,7,Male,SC,Patna,Bakhtiyarpur,2026-04-24,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,918,0.9,1,0,1,1,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-PAT-422,Sneha Sinha,12,Male,OBC,Patna,Bakhtiyarpur,2026-04-02,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,833,0.86,0,2,1,2,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-423,Divya Paswan,9,Male,OBC,Gaya,Dobhi,2026-03-22,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,879,0.77,1,2,1,2,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-424,Nisha Yadav,12,Male,OBC,Patna,Danapur,2026-03-27,CTR-006,Danapur Center A,FW-006,Amit Sharma,658,0.93,2,0,3,1,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-GAY-425,Mohammad Kumar,10,Male,General,Gaya,Dobhi,2026-03-26,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,961,0.87,2,0,3,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-426,Riya Kumari,6,Female,OBC,Patna,Maner,2026-03-26,CTR-007,Maner Center A,FW-007,Kiran Devi,667,0.74,0,0,0,0,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-427,Sunita Singh,12,Female,SC,Patna,Maner,2026-05-09,CTR-007,Maner Center A,FW-007,Kiran Devi,679,0.7,1,2,1,2,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-428,Aisha Ansari,14,Female,General,Gaya,Wazirganj,2026-01-21,CTR-004,Wazirganj Center A,FW-004,Anita Devi,828,0.74,1,2,1,2,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-429,Aisha Khan,7,Male,OBC,Gaya,Bodh Gaya,2026-02-18,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,750,0.84,1,2,1,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-430,Rahul Paswan,12,Female,OBC,Gaya,Bodh Gaya,2026-01-23,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,734,0.93,0,1,1,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-431,Pooja Kumar,12,Male,OBC,Gaya,Wazirganj,2026-05-09,CTR-004,Wazirganj Center A,FW-004,Anita Devi,717,0.8,0,0,0,0,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-432,Manish Sharma,12,Female,OBC,Gaya,Wazirganj,2026-02-05,CTR-004,Wazirganj Center A,FW-004,Anita Devi,978,0.96,1,1,1,1,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-GAY-433,Mohammad Devi,6,Female,OBC,Gaya,Mohanpur,2026-04-15,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,715,0.68,1,1,1,1,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-434,Karan Gupta,9,Female,OBC,Patna,Bakhtiyarpur,2026-03-31,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,845,0.79,0,0,0,0,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-435,Divya Singh,6,Female,General,Patna,Bakhtiyarpur,2026-04-27,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,657,0.84,1,1,2,1,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-GAY-436,Amit Singh,9,Male,General,Gaya,Mohanpur,2026-02-27,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,772,0.99,0,2,2,3,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-PAT-437,Mohammad Paswan,10,Male,General,Patna,Danapur,2026-01-18,CTR-006,Danapur Center A,FW-006,Amit Sharma,684,0.81,2,0,2,1,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-PAT-438,Sneha Yadav,11,Female,OBC,Patna,Maner,2026-01-19,CTR-007,Maner Center A,FW-007,Kiran Devi,918,0.73,1,2,1,2,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-439,Diya Manjhi,8,Female,General,Gaya,Mohanpur,2026-03-09,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,681,0.74,2,0,2,0,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-440,Rajesh Rajak,14,Female,OBC,Patna,Fatuha,2026-04-07,CTR-010,Fatuha Center A,FW-010,Sneha Singh,754,0.74,1,2,1,2,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-441,Pooja Yadav,7,Male,OBC,Patna,Maner,2026-04-24,CTR-007,Maner Center A,FW-007,Kiran Devi,837,0.82,1,2,1,2,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-GAY-442,Neha Sharma,7,Male,General,Gaya,Dobhi,2026-03-21,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,889,0.94,0,0,1,0,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-443,Rohan Ansari,7,Male,OBC,Gaya,Mohanpur,2026-05-10,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,935,0.68,0,2,0,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-444,Rohan Devi,8,Female,General,Gaya,Dobhi,2026-02-15,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,906,0.91,2,2,3,2,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-PAT-445,Rajesh Khan,9,Female,OBC,Patna,Phulwari Sharif,2026-05-04,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,763,0.71,0,1,0,1,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-446,Nisha Manjhi,12,Male,OBC,Gaya,Wazirganj,2026-01-13,CTR-004,Wazirganj Center A,FW-004,Anita Devi,796,0.72,2,1,2,1,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-447,Diya Das,8,Female,General,Patna,Maner,2026-03-11,CTR-007,Maner Center A,FW-007,Kiran Devi,895,0.95,2,2,2,3,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-448,Priya Choudhary,14,Female,General,Gaya,Dobhi,2026-02-22,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,911,0.81,2,2,2,3,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-449,Kajal Ansari,7,Male,General,Gaya,Wazirganj,2026-04-20,CTR-004,Wazirganj Center A,FW-004,Anita Devi,821,0.81,2,2,3,2,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-450,Mohammad Mishra,11,Male,OBC,Patna,Maner,2026-03-10,CTR-007,Maner Center A,FW-007,Kiran Devi,873,0.9,2,2,3,4,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-PAT-451,Aisha Gupta,9,Female,SC,Patna,Bakhtiyarpur,2026-04-06,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,951,0.93,1,0,2,0,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-PAT-452,Neha Kumar,11,Female,General,Patna,Fatuha,2026-01-29,CTR-010,Fatuha Center A,FW-010,Sneha Singh,775,0.9,1,0,2,0,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-GAY-453,Rajesh Rajak,11,Male,General,Gaya,Bodh Gaya,2026-03-15,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,729,0.95,0,1,1,1,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-454,Riya Tiwari,14,Female,OBC,Gaya,Dobhi,2026-03-06,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,734,0.83,2,0,3,1,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-GAY-455,Rajesh Das,11,Female,General,Gaya,Bodh Gaya,2026-03-28,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,623,0.96,2,2,3,3,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-GAY-456,Sunita Sinha,10,Female,SC,Gaya,Dobhi,2026-01-30,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,725,0.91,0,1,0,1,2026-06-05,2026-06-05T18:00:00Z,false
+SOP-PAT-457,Sanjay Gupta,12,Male,SC,Patna,Bakhtiyarpur,2026-03-11,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,819,0.81,0,2,1,3,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-458,Karan Verma,12,Male,OBC,Gaya,Dobhi,2026-01-25,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,718,0.69,0,1,0,1,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-459,Amit Manjhi,11,Male,OBC,Patna,Fatuha,2026-04-12,CTR-010,Fatuha Center A,FW-010,Sneha Singh,660,0.75,1,0,1,0,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-GAY-460,Fatima Choudhary,8,Female,OBC,Gaya,Dobhi,2026-02-03,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,749,0.72,1,0,1,0,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-461,Rohan Singh,6,Male,OBC,Gaya,Dobhi,2026-03-03,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,853,0.91,0,1,2,2,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-PAT-462,Rahul Tiwari,9,Female,OBC,Patna,Maner,2026-03-25,CTR-007,Maner Center A,FW-007,Kiran Devi,937,0.67,1,2,1,2,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-PAT-463,Jyoti Choudhary,13,Female,SC,Patna,Bakhtiyarpur,2026-04-05,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,641,0.92,0,0,1,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-464,Vikram Manjhi,8,Female,OBC,Patna,Maner,2026-01-27,CTR-007,Maner Center A,FW-007,Kiran Devi,667,0.9,0,0,0,1,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-465,Vikram Yadav,10,Female,OBC,Patna,Maner,2026-02-27,CTR-007,Maner Center A,FW-007,Kiran Devi,822,0.97,0,2,1,3,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-PAT-466,Sunita Verma,10,Male,OBC,Patna,Maner,2026-01-15,CTR-007,Maner Center A,FW-007,Kiran Devi,948,0.72,1,0,1,0,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-467,Aisha Kumar,13,Female,OBC,Patna,Fatuha,2026-04-23,CTR-010,Fatuha Center A,FW-010,Sneha Singh,781,0.8,1,1,1,1,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-468,Aisha Devi,9,Male,OBC,Gaya,Dobhi,2026-03-05,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,854,0.94,0,2,2,4,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-469,Aditya Khan,13,Female,General,Patna,Maner,2026-05-03,CTR-007,Maner Center A,FW-007,Kiran Devi,622,0.98,1,1,1,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-470,Kiran Yadav,9,Female,OBC,Gaya,Mohanpur,2026-04-18,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,667,0.91,2,0,2,1,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-471,Rahul Yadav,13,Female,SC,Gaya,Dobhi,2026-02-28,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,858,0.91,0,0,1,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-472,Rajesh Manjhi,12,Male,OBC,Patna,Phulwari Sharif,2026-03-03,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,846,0.68,1,2,1,2,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-473,Arjun Choudhary,13,Male,OBC,Patna,Bakhtiyarpur,2026-05-03,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,922,0.71,1,0,1,0,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-GAY-474,Sneha Mishra,13,Male,General,Gaya,Bodh Gaya,2026-01-13,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,737,0.71,0,0,0,0,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-475,Riya Paswan,13,Female,SC,Gaya,Bodh Gaya,2026-04-09,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,681,0.72,2,1,2,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-476,Sunita Manjhi,14,Female,OBC,Patna,Bakhtiyarpur,2026-01-29,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,975,0.95,0,2,0,3,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-477,Amit Sinha,14,Female,OBC,Gaya,Wazirganj,2026-05-05,CTR-004,Wazirganj Center A,FW-004,Anita Devi,722,0.85,1,0,1,1,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-478,Mohammad Verma,8,Female,OBC,Gaya,Sherghati,2026-02-25,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,909,0.72,0,2,0,2,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-GAY-479,Nisha Verma,9,Female,OBC,Gaya,Mohanpur,2026-04-18,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,813,0.66,0,2,0,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-480,Manish Khan,6,Male,General,Patna,Fatuha,2026-05-04,CTR-010,Fatuha Center A,FW-010,Sneha Singh,640,0.68,2,1,2,1,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-481,Ananya Manjhi,11,Female,OBC,Patna,Bakhtiyarpur,2026-02-22,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,626,0.68,0,1,0,1,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-GAY-482,Rohan Gupta,13,Female,OBC,Gaya,Bodh Gaya,2026-01-21,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,637,0.99,2,2,2,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-483,Vivaan Paswan,8,Female,SC,Gaya,Bodh Gaya,2026-04-02,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,834,0.84,1,2,1,2,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-484,Sunita Kumari,10,Male,OBC,Patna,Maner,2026-01-30,CTR-007,Maner Center A,FW-007,Kiran Devi,820,0.87,1,1,2,3,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-485,Riya Gupta,10,Female,General,Patna,Danapur,2026-04-18,CTR-006,Danapur Center A,FW-006,Amit Sharma,704,0.82,0,2,0,2,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-PAT-486,Aisha Ansari,9,Male,General,Patna,Maner,2026-02-06,CTR-007,Maner Center A,FW-007,Kiran Devi,833,0.92,2,2,3,3,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-487,Aisha Choudhary,11,Male,OBC,Gaya,Sherghati,2026-02-08,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,601,0.68,2,0,2,0,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-488,Pooja Paswan,6,Male,ST,Patna,Phulwari Sharif,2026-02-18,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,627,0.9,1,0,2,2,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-GAY-489,Sunita Tiwari,10,Female,SC,Gaya,Sherghati,2026-05-11,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,977,0.94,1,1,2,3,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-PAT-490,Riya Paswan,7,Female,SC,Patna,Phulwari Sharif,2026-01-18,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,911,0.97,1,0,2,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-GAY-491,Nisha Yadav,14,Male,OBC,Gaya,Dobhi,2026-04-21,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,834,0.67,1,1,1,1,2026-06-10,2026-06-12T18:00:00Z,false
+SOP-PAT-492,Rohan Verma,13,Female,General,Patna,Danapur,2026-04-23,CTR-006,Danapur Center A,FW-006,Amit Sharma,627,0.76,0,0,1,0,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-493,Fatima Singh,8,Male,OBC,Gaya,Bodh Gaya,2026-04-06,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,948,0.84,1,0,1,1,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-494,Rohan Kumari,7,Male,SC,Gaya,Bodh Gaya,2026-04-06,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,946,0.94,1,2,3,3,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-PAT-495,Rajesh Verma,12,Male,General,Patna,Maner,2026-04-15,CTR-007,Maner Center A,FW-007,Kiran Devi,611,0.87,0,1,2,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-GAY-496,Vikram Yadav,14,Female,OBC,Gaya,Mohanpur,2026-01-15,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,671,0.76,2,2,2,2,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-GAY-497,Abhishek Choudhary,11,Female,OBC,Gaya,Wazirganj,2026-02-07,CTR-004,Wazirganj Center A,FW-004,Anita Devi,971,0.97,0,2,1,3,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-498,Vihaan Paswan,11,Female,SC,Gaya,Bodh Gaya,2026-04-24,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,673,0.79,1,1,1,1,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-PAT-499,Karan Singh,9,Female,OBC,Patna,Bakhtiyarpur,2026-01-14,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,736,0.81,2,0,2,0,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-GAY-500,Priya Tiwari,9,Male,OBC,Gaya,Dobhi,2026-03-11,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,719,0.81,2,0,2,0,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-PAT-501,Rahul Das,11,Female,General,Patna,Bakhtiyarpur,2026-03-08,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,918,0.77,0,1,1,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-PAT-502,Vivaan Prasad,12,Male,OBC,Patna,Phulwari Sharif,2026-04-13,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,659,0.94,2,0,3,0,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-503,Rahul Devi,10,Female,OBC,Gaya,Sherghati,2026-04-10,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,950,0.72,1,0,1,0,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-504,Riya Paswan,13,Male,ST,Gaya,Dobhi,2026-01-28,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,874,0.87,2,2,3,4,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-PAT-505,Amit Kumar,6,Male,OBC,Patna,Phulwari Sharif,2026-02-16,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,876,0.72,2,0,2,0,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-506,Mohammad Kumar,12,Male,SC,Patna,Fatuha,2026-02-24,CTR-010,Fatuha Center A,FW-010,Sneha Singh,806,0.72,0,0,0,0,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-507,Pooja Yadav,7,Male,SC,Patna,Maner,2026-03-12,CTR-007,Maner Center A,FW-007,Kiran Devi,706,0.88,1,0,2,1,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-GAY-508,Arjun Devi,10,Male,OBC,Gaya,Sherghati,2026-03-08,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,997,0.78,0,2,1,2,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-GAY-509,Fatima Paswan,11,Male,General,Gaya,Sherghati,2026-04-20,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,714,0.89,2,1,2,1,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-GAY-510,Priya Rajak,12,Male,SC,Gaya,Wazirganj,2026-02-21,CTR-004,Wazirganj Center A,FW-004,Anita Devi,839,0.67,2,0,2,0,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-PAT-511,Priya Yadav,7,Male,OBC,Patna,Bakhtiyarpur,2026-03-28,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,630,0.71,1,2,1,2,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-GAY-512,Arjun Gupta,13,Female,General,Gaya,Dobhi,2026-05-03,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,842,0.85,0,2,1,2,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-GAY-513,Aditya Sharma,8,Female,OBC,Gaya,Bodh Gaya,2026-01-28,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,997,0.71,1,0,1,0,2026-06-07,2026-06-07T18:00:00Z,false
+SOP-GAY-514,Ananya Singh,14,Male,General,Gaya,Bodh Gaya,2026-02-23,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,812,0.92,0,1,1,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-515,Sneha Devi,6,Male,OBC,Patna,Bakhtiyarpur,2026-02-21,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,792,0.81,1,2,1,2,2026-06-05,2026-06-06T18:00:00Z,false
+SOP-GAY-516,Arjun Choudhary,6,Male,OBC,Gaya,Bodh Gaya,2026-03-01,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,954,0.69,0,2,0,2,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-PAT-517,Neha Kumari,7,Male,OBC,Patna,Phulwari Sharif,2026-04-24,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,864,0.94,0,2,0,3,2026-06-07,2026-06-08T18:00:00Z,false
+SOP-GAY-518,Pooja Rajak,14,Female,SC,Gaya,Dobhi,2026-02-19,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,745,0.69,0,2,0,2,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-PAT-519,Rahul Gupta,7,Female,OBC,Patna,Maner,2026-03-13,CTR-007,Maner Center A,FW-007,Kiran Devi,712,0.82,2,2,2,2,2026-06-11,2026-06-13T18:00:00Z,false
+SOP-PAT-520,Sanjay Sharma,8,Male,OBC,Patna,Maner,2026-01-29,CTR-007,Maner Center A,FW-007,Kiran Devi,796,0.92,0,1,0,2,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-521,Vihaan Paswan,6,Female,OBC,Patna,Fatuha,2026-02-17,CTR-010,Fatuha Center A,FW-010,Sneha Singh,894,0.91,2,0,3,0,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-GAY-522,Manish Tiwari,10,Female,OBC,Gaya,Wazirganj,2026-03-23,CTR-004,Wazirganj Center A,FW-004,Anita Devi,673,0.83,1,2,1,2,2026-06-06,2026-06-08T18:00:00Z,false
+SOP-GAY-523,Karan Prasad,8,Male,OBC,Gaya,Dobhi,2026-03-06,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,756,0.96,2,1,4,2,2026-06-07,2026-06-09T18:00:00Z,false
+SOP-PAT-524,Ananya Kumari,8,Female,OBC,Patna,Phulwari Sharif,2026-04-18,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,792,0.95,0,1,0,1,2026-06-11,2026-06-12T18:00:00Z,false
+SOP-PAT-525,Rajesh Manjhi,9,Female,OBC,Patna,Fatuha,2026-03-07,CTR-010,Fatuha Center A,FW-010,Sneha Singh,974,0.69,1,0,1,0,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-526,Vivaan Mishra,10,Male,SC,Patna,Phulwari Sharif,2026-03-12,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,625,0.67,2,2,2,2,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-527,Riya Prasad,8,Male,OBC,Gaya,Dobhi,2026-05-09,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,947,0.99,2,0,3,0,2026-06-09,2026-06-10T18:00:00Z,false
+SOP-PAT-528,Fatima Paswan,10,Male,OBC,Patna,Fatuha,2026-04-10,CTR-010,Fatuha Center A,FW-010,Sneha Singh,846,0.66,1,0,1,0,2026-06-05,2026-06-07T18:00:00Z,false
+SOP-GAY-529,Vihaan Kumari,12,Female,OBC,Gaya,Dobhi,2026-03-14,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,628,0.67,2,2,2,2,2026-06-09,2026-06-09T18:00:00Z,false
+SOP-PAT-530,Diya Sinha,9,Female,OBC,Patna,Bakhtiyarpur,2026-04-29,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,855,0.69,1,1,1,1,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-531,Fatima Sinha,7,Male,OBC,Gaya,Mohanpur,2026-02-07,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,689,0.86,2,2,3,3,2026-06-10,2026-06-10T18:00:00Z,false
+SOP-PAT-532,Diya Sharma,11,Male,OBC,Patna,Bakhtiyarpur,2026-03-04,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,697,0.92,0,0,2,1,2026-06-06,2026-06-06T18:00:00Z,false
+SOP-GAY-533,Neha Sharma,10,Male,OBC,Gaya,Bodh Gaya,2026-03-09,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,915,0.78,0,1,1,1,2026-06-09,2026-06-11T18:00:00Z,false
+SOP-GAY-534,Vikram Rajak,14,Male,General,Gaya,Sherghati,2026-03-01,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,697,0.72,0,2,0,2,2026-06-08,2026-06-10T18:00:00Z,false
+SOP-GAY-535,Aditya Kumari,9,Male,General,Gaya,Sherghati,2026-01-23,CTR-003,Sherghati Center A,FW-003,Sanjay Kumar,987,0.94,0,1,0,2,2026-06-06,2026-06-07T18:00:00Z,false
+SOP-GAY-536,Vihaan Yadav,9,Male,General,Gaya,Bodh Gaya,2026-01-23,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,884,0.69,0,0,0,0,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-PAT-537,Rohan Prasad,7,Male,SC,Patna,Maner,2026-04-30,CTR-007,Maner Center A,FW-007,Kiran Devi,795,0.74,0,1,0,1,2026-06-08,2026-06-08T18:00:00Z,false
+SOP-PAT-538,Sneha Sharma,13,Female,SC,Patna,Danapur,2026-02-08,CTR-006,Danapur Center A,FW-006,Amit Sharma,829,0.68,2,2,2,2,2026-06-11,2026-06-11T18:00:00Z,false
+SOP-PAT-539,Riya Singh,12,Female,SC,Patna,Phulwari Sharif,2026-03-08,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,795,0.97,2,2,3,3,2026-06-10,2026-06-11T18:00:00Z,false
+SOP-PAT-540,Kiran Verma,9,Male,General,Patna,Danapur,2026-02-03,CTR-006,Danapur Center A,FW-006,Amit Sharma,967,0.95,2,1,3,2,2026-06-08,2026-06-09T18:00:00Z,false
+SOP-GAY-011,Diya Gupta,8,Female,SC,Gaya,Bodh Gaya,2026-05-09,CTR-001,Bodh Gaya Center A,FW-001,Pooja Kumari,638,0.72,0,0,0,0,2026-06-11,2026-06-12T18:00:00Z,true
+SOP-PAT-031,Rohan Yadav,9,Male,OBC,Patna,Phulwari Sharif,2026-02-27,CTR-008,Phulwari Center A,FW-008,Mohammad Ali,821,0.89,1,0,2,1,2026-06-10,2026-06-11T18:00:00Z,true
+SOP-GAY-051,Kiran Choudhary,9,Female,General,Gaya,Dobhi,2026-04-04,CTR-002,Dobhi Center A,FW-002,Ramesh Paswan,912,0.66,0,0,0,0,2026-06-07,2026-06-08T18:00:00Z,true
+SOP-PAT-071,Aditya Ansari,7,Female,OBC,Patna,Bakhtiyarpur,2026-01-19,CTR-009,Bakhtiyarpur Center A,FW-009,Rahul Prasad,808,0.78,2,1,3,1,2026-06-10,2026-06-12T18:00:00Z,true
+SOP-GAY-091,Aisha Singh,7,Male,OBC,Gaya,Mohanpur,2026-01-25,CTR-005,Mohanpur Center A,FW-005,Sunil Yadav,903,0.75,2,2,2,2,2026-06-11,2026-06-13T18:00:00Z,true
